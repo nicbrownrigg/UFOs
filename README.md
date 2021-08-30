@@ -9,19 +9,19 @@ The general purpose of this project was to create a dynamic table that we could 
 
 Search process is incredibly simple. The code is designed to automatically filter through the data set after you finish typing and click away from the box or press enter. The website utilizes a text search filter function as utilized in our app.JS file to quickly cipher through all the different data points and assembles the table with the filter data in tow. This is accomplished by utilizing two functions. The first function creates a set of variables in order to assign the filters based on the element we present in our filter table. The second filter utilizes an object/forEach function to go through our table data and utilize the updated filter function to parse that data into our table. This quickly updates the HTML file and displays what the user would like to see as soon as possible. Here are examples of the filter working below:
 
-Filtering by Date:
+### Filtering by Date:
 ![Date Filter](static/images/dateFilter.png)
 
-Filtering by City:
+### Filtering by City:
 ![City Filter](static/images/cityFilter.png)
 
-Filtering by State:
+### Filtering by State:
 ![State Filter](static/images/stateFilter.png)
 
-Filtering by Country:
+### Filtering by Country:
 ![Country Filter](static/images/countryFilter.png)
 
-Filtering by Shape:
+### Filtering by Shape:
 ![Shape Filter](static/images/shapeFilter.png)
 
 ## Summary
